@@ -1,4 +1,4 @@
-document.querySelectorAll('.number').forEach(el=>el.addEventListener('click', clickNumber));
+document.querySelectorAll('.number').forEach(el => el.addEventListener('click', clickNumber));
 document.querySelector('.operation').addEventListener('click', operation);
 document.querySelector('.subtract').addEventListener('click', subtract);
 document.querySelector('.calc').addEventListener('click', calc);
@@ -30,6 +30,7 @@ function divided() {
 function multiply() {
     display.value += '*';
 }
+
 function clear() {
     display.value = '';
 }
